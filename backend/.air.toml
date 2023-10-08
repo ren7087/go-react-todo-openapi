@@ -1,0 +1,8 @@
+[build]
+  bin = "main"
+  cmd = "go build -o ./main ./main.go"
+  delay = 1000ms
+
+[watch]
+  includes = ["*.go"]
+  excludes = ["vendor", "gen"]
